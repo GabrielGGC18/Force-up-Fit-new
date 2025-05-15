@@ -1,0 +1,175 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicas de uma Rotina Saudável | ForceUp Fit</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <img src="img/logo force up.png" alt="Logo do site" class="logo">  
+        <h1>Questionário</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="Dicas.html">Dicas</a></li>
+                <li><a href="receitas.html">Receitas</a></li>
+                <li><a href="WanderlanTreinador.html">Treinador</a></li>
+                <li><a href="Contatos.html">Contatos  </a></li>
+            </ul>
+        </nav>
+    </header>
+        
+    </header>
+<main class="content">
+    <section class="question-section">
+        <h2>Pergunta 1: Como está a sua rotina diária?</h2>
+        <form>
+            <input type="radio" id="desorganizada" name="rotina">
+            <label for="desorganizada">Rotina Desorganizada</label>
+            
+            <input type="radio" id="organizada" name="rotina">
+            <label for="organizada">Rotina Organizada</label>
+            
+            <input type="radio" id="equilibrada" name="rotina">
+            <label for="equilibrada">Rotina Equilibrada</label>
+            
+            <input type="radio" id="intensa" name="rotina">
+            <label for="intensa">Rotina Intensa</label>
+            
+            <button type="button" onclick="desmarcar()">Desmarcar</button>                                   
+        </form>
+    </section>
+
+    <section class="question-section">
+        <h2>Pergunta 2: Você possui uma rotina saudável?</h2>
+        <form>
+            <input type="radio" id="saudavel" name="saude">
+            <label for="saudavel">Saudável</label>
+
+            <input type="radio" id="pouco-saudavel" name="saude">
+            <label for="pouco-saudavel">Pouco Saudável</label>
+
+            <input type="radio" id="neutra" name="saude">
+            <label for="neutra">Neutra</label>
+
+            <input type="radio" id="desregrada" name="saude">
+            <label for="desregrada">Totalmente Desregulada</label>
+
+            <button type="button" onclick="desmarcar()">Desmarcar</button>
+        </form>
+    </section>
+
+    <section class="question-section">
+        <h2>Pergunta 3: Como está sua alimentação?</h2>
+        <form>
+            <input type="radio" id="balanceada" name="alimentacao">
+            <label for="balanceada">Balanceada</label>
+
+            <input type="radio" id="fast-food" name="alimentacao">
+            <label for="fast-food">Alta em Fast-Food</label>
+
+            <input type="radio" id="pouca-variacao" name="alimentacao">
+            <label for="pouca-variacao">Pouca Variedade</label>
+
+            <input type="radio" id="rica-em-industrializados" name="alimentacao">
+            <label for="rica-em-industrializados">Rica em Alimentos Industrializados</label>
+
+            <button type="button" onclick="desmarcar()">Desmarcar</button>
+        </form>
+    </section>
+
+    <section class="question-section">
+        <h2>Pergunta 4: Como está seu sono?</h2>
+        <form>
+            <input type="radio" id="descanso-ideal" name="sono">
+            <label for="descanso-ideal">Descanso ideal (7-8 horas)</label>
+
+            <input type="radio" id="sono-irregular" name="sono">
+            <label for="sono-irregular">Sono irregular</label>
+
+            <input type="radio" id="insuficiente" name="sono">
+            <label for="insuficiente">Sono insuficiente</label>
+
+            <input type="radio" id="qualidade-baixa" name="sono">
+            <label for="qualidade-baixa">Sono de baixa qualidade</label>
+
+            <button type="button" onclick="desmarcar()">Desmarcar</button>
+        </form>
+    </section>
+
+    <section class="question-section">
+        <h2>Pergunta 5: Você pratica exercícios físicos regularmente?</h2>
+        <form>
+            <input type="radio" id="frequente" name="treino">
+            <label for="frequente">Sim, regularmente</label>
+
+            <input type="radio" id="ocasional" name="treino">
+            <label for="ocasional">Às vezes</label>
+
+            <input type="radio" id="raro" name="treino">
+            <label for="raro">Muito raramente</label>
+
+            <input type="radio" id="nunca" name="treino">
+            <label for="nunca">Não pratico</label>
+
+            <button type="button" onclick="desmarcar()">Desmarcar</button>
+        </form>
+    </section>
+
+    <section class="question-section">
+        <h2>Pergunta 6: Você tem bons hábitos de hidratação?</h2>
+        <form>
+            <input type="radio" id="ideal" name="agua">
+            <label for="ideal">Sim, bebo água suficiente</label>
+
+            <input type="radio" id="baixo-consumo" name="agua">
+            <label for="baixo-consumo">Bebo pouca água</label>
+
+            <input type="radio" id="apenas-refri" name="agua">
+            <label for="apenas-refri">Prefiro refrigerantes e sucos</label>
+
+            <input type="radio" id="negligencio" name="agua">
+            <label for="negligencio">Não me preocupo com hidratação</label>
+
+            <button type="button" onclick="desmarcar()">Desmarcar</button>
+        </form>
+    </section>
+
+    <section class="question-section">
+        <h2>Pergunta 7: Como está sua saúde mental?</h2>
+        <form>
+            <input type="radio" id="boa" name="mental">
+            <label for="boa">Boa</label>
+
+            <input type="radio" id="ansiedade" name="mental">
+            <label for="ansiedade">Tenho ansiedade</label>
+
+            <input type="radio" id="stress-alto" name="mental">
+            <label for="stress-alto">Nível alto de estresse</label>
+
+            <input type="radio" id="preciso-ajuda" name="mental">
+            <label for="preciso-ajuda">Preciso de apoio psicológico</label>
+
+            <button type="button" onclick="desmarcar()">Desmarcar</button>
+        </form>
+    </section>
+
+    <section class="question-section">
+        <h2>Pergunta 8: Como você lida com o estresse?</h2>
+        <form>
+            <input type="radio" id="boa-gestao" name="stress">
+            <label for="boa-gestao">Gerencio bem</label>
+
+            <input type="radio" id="afeta-vida" name="stress">
+            <label for="afeta-vida">Afeta minha rotina</label>
+
+            <input type="radio" id="ignoro" name="stress">
+            <label for="ignoro">Ignoro o estresse</label>
+
+            <input type="radio" id="uso-medidas-destrutivas" name="stress">
+            <label for="uso-medidas-destrutivas">Recorro a medidas prejudiciais</label>
+
+            <button type="button" onclick="desmarcar()">Desmarcar</button>
+        </form>
+    </section>
+</main>

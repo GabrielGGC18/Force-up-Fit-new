@@ -1,0 +1,215 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #244e25;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Logo */
+.logo {
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+/* Menu de navegação */
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(238, 239, 248);
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu li a:hover {
+    color: #ffd700;
+}
+
+/* Conteúdo */
+.content {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Seção de apresentação */
+.trainer-section {
+    background-color: #f6f8ef;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 20px auto;
+    text-align: justify;
+}
+
+.trainer-section h2 {
+    color: #4CAF50;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.trainer-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.trainer-section blockquote {
+    font-style: italic;
+    color: #4CAF50;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+.trainer-img {
+    width: 100px; /* Define o tamanho da imagem */
+    position: absolute;
+    top: 60%; /* Centraliza verticalmente */
+    right: -9%; /* Posiciona no canto direito */
+    transform: translateY(-40%); /* Ajusta a centralização exata */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+}
+
+
+/* Imagem do treinador */
+.trainer-img {
+    width: 200px;
+    display: block;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+/* Apresentação */
+.presentation {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 20px auto;
+    text-align: justify;
+}
+
+.presentation h2 {
+    color: #4CAF50;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.presentation p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.presentation blockquote {
+    font-style: italic;
+    color: #4CAF50;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+/* Perguntas */
+.question-section {
+    background-color: white;
+    padding: 1.5rem;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.question-section:hover {
+    transform: scale(1.02);
+}
+
+.question-section h2 {
+    color: #4CAF50;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+label {
+    font-size: 1.1rem;
+    display: block;
+    padding: 8px;
+    cursor: pointer;
+}
+
+/* Botões */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Link de retorno */
+.back-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    display: block;
+    margin-top: 1rem;
+}
+.content {
+  background-color: white;
+    padding: 1.5rem;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0px 4px 6px rgb(20, 250, 70);
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    font-family: Arial, sans-serif;
+}
+.content:hover {
+    transform: scale(1.02);
+}
+/* Estilo para o botão de reiniciar */
