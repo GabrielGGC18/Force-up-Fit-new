@@ -213,3 +213,20 @@ button:hover {
     transform: scale(1.02);
 }
 /* Estilo para o botão de reiniciar */
+
+/*Mobile*/
+@media screen and (max-width: 768px) {
+    .trainer-section, .presentation, .question-section {
+        width: 95%;
+        padding: 1rem;
+    }
+
+    .trainer-img {
+        width: 150px;
+        right: -5%;
+    }
+
+    .content {
+        width: 95%;
+        padding: 1rem;
+    }
